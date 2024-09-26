@@ -49,7 +49,7 @@ const store = MongoStore.create({
 });
 
 store.on("error",()=>{
-    console.log("ERROR inmongo session store");
+    console.log("ERROR in mongo session store");
 });
 
 const sessionOptions = {
@@ -69,8 +69,8 @@ const sessionOptions = {
 // });
 
 
-app.use(session(sessionOptions));
-app.use(flash());
+ app.use(session(sessionOptions));
+ app.use(flash());
 
 app.use(passport.initialize());
 app.use(passport.session());
