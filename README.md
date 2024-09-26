@@ -1,5 +1,5 @@
 **Wanderlust** is a full-stack application built with Node.js, Express, MongoDB, and EJS templating. It allows users to explore and create listings, post reviews, and interact with a dynamic travel listing platform.
-# URL to see the project
+# Link to see the project
 https://wanderlust-rkfq.onrender.com
 ## Features
 - User authentication with Passport.js (login, registration).
